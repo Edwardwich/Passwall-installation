@@ -33,7 +33,7 @@ download this 2 Packages
     and
 
     ```sh
-    opkg remove dnsmasq-full
+    opkg install dnsmasq-full
     ```
 
 3. Install package downloaded :

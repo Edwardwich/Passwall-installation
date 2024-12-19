@@ -31,17 +31,17 @@ download this 2 Packages
 
 3. Install package downloaded :
 4. 
-unzip all file downloaded and go to software in openwrt luci interface and install Packages one by one 
+unzip all file downloaded and go to software in openwrt luci web interface and install Packages one by one 
 ![Screenshot 2024-12-19 at 14 23 48](https://github.com/user-attachments/assets/f6af2123-191c-451c-b9e5-1984c2aed519)
 
 ![Screenshot 2024-12-19 at 14 25 53](https://github.com/user-attachments/assets/581f806b-e40c-4351-b50c-d0d2c7172301)
 
 ![Screenshot 2024-12-19 at 14 26 31](https://github.com/user-attachments/assets/a501b675-ef53-4541-be17-efcccddfd8cf)
 
-after installing all Packages now for last need install passwall2 frome software in openwrt luci interface:
+after installing all Packages now for last need install passwall2 frome software in openwrt luci web interface:
 ![Screenshot 2024-12-19 at 14 27 56](https://github.com/user-attachments/assets/55cba6a1-7cae-4996-b0a6-c00fbadbe3e4)
 
-then log out frome luci interface and log in again :
+then log out frome luci web interface and log in again :
 now u can find passwall2 in software tab in openwrt
 ![Screenshot 2024-12-19 at 14 29 36](https://github.com/user-attachments/assets/7426fa76-dfe9-47f5-9fec-06b005aa4b26)
 

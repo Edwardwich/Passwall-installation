@@ -41,5 +41,7 @@ ext:geosite_IR.dat:ir
 ![Screenshot 2024-12-19 at 14 57 09](https://github.com/user-attachments/assets/0f5bfd41-f602-4461-b4c7-7e76167f0aa5)
 
 than go to bsic setting and use shunt iran :
+
+
 ![Screenshot 2024-12-19 at 14 58 06](https://github.com/user-attachments/assets/ac61bff6-2f12-45ca-9dd8-c25e5ae8e849)
 

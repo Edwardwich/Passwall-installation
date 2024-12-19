@@ -11,8 +11,8 @@ download this 2 Packages
 
 ## Install via OPKG
 
-1. Run opkg update:
-
+1. Run opkg update: 
+    if get any error in useing this commend add dns to network interface and it work 
     ```sh
     opkg update
     ```

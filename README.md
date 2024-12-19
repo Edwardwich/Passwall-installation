@@ -37,7 +37,7 @@ download this 2 Packages
     ```
 
 3. Install package downloaded :
-4. 
+
 unzip all file downloaded and go to software in openwrt luci web interface and install Packages one by one 
 ![Screenshot 2024-12-19 at 14 23 48](https://github.com/user-attachments/assets/f6af2123-191c-451c-b9e5-1984c2aed519)
 

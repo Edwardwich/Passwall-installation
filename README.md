@@ -49,6 +49,7 @@ after installing all Packages now for last need install passwall2 frome software
 ![Screenshot 2024-12-19 at 14 27 56](https://github.com/user-attachments/assets/55cba6a1-7cae-4996-b0a6-c00fbadbe3e4)
 
 then log out frome luci web interface and log in again :
+
 now u can find passwall2 in software tab in openwrt
 ![Screenshot 2024-12-19 at 14 29 36](https://github.com/user-attachments/assets/7426fa76-dfe9-47f5-9fec-06b005aa4b26)
 

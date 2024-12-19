@@ -53,3 +53,4 @@ now u can find passwall2 in software tab in openwrt
 ![Screenshot 2024-12-19 at 14 29 36](https://github.com/user-attachments/assets/7426fa76-dfe9-47f5-9fec-06b005aa4b26)
 
 
+also chack this : [Iran](https://github.com/Edwardwich/Passwall-installation/blob/main/iran.md)

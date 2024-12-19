@@ -17,6 +17,13 @@ download this 2 Packages
     opkg update
     ```
 
+    ```sh
+    opkg install kmod-nft-socket
+    ```
+    ```sh
+    opkg install kmod-nft-tproxy
+    ```
+
 2. remove dnsmasq and install dnsmasq-full:
 
     ```sh

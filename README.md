@@ -1,5 +1,11 @@
 # Passwall-installation
 
+## test Connection:
+
+ ```bash
+  bash -c "$(curl -fsSL https://raw.githubusercontent.com/Edwardwich/Passwall-installation/main/ping_diff.sh)"
+  ```
+
 ## Download-Passwall-Packages
 First you need to check the Architecture
 ![Screenshot 2024-12-19 at 14 13 11](https://github.com/user-attachments/assets/6d72b366-efb1-4348-a93c-3f76ff291654)
@@ -7,7 +13,6 @@ First you need to check the Architecture
 then goo to this [passwall2](https://github.com/xiaorouji/openwrt-passwall2/releases)
 download this 2 Packages
 ![Screenshot 2024-12-19 at 14 16 15](https://github.com/user-attachments/assets/2d2ae492-ac15-4df3-8eee-7c13a004ac68)
-
 
 ## Install via OPKG
 

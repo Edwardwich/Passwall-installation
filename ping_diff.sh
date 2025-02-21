@@ -49,9 +49,9 @@ ping_tests() {
 
     # Create a message for the dialog box
     RESULTS="Google Ping: $GOOGLE_PING ms\n"
-    RESULTS+="4.2.2.4 Ping: $GAME_PING ms\n"
     RESULTS+="twitch Ping: $TWITCH_PING ms\n"
     RESULTS+="youtube Ping: $YOUTUBE_PING ms\n"
+    RESULTS+="4.2.2.4 Ping: $GAME_PING ms\n"
 
     # RESULTS+="ADSL Modem Ping: $ADSL_PING ms\n" TWITCH_PING
     # RESULTS+="Router Ping: $ROUTER_PING ms\n"

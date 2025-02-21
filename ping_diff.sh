@@ -24,8 +24,7 @@ ping_tests() {
         fi
     }
 
-    # Get the ping to the Game
-    GAME_PING=$(ping_result $GAME_IP)
+    
 
     # Get the ping to Google
     GOOGLE_PING=$(ping_result $GOOGLE_IP)
@@ -33,6 +32,9 @@ ping_tests() {
     # Get the ping to the TWITCH_IP Modem  YOUTUBE_IP
     TWITCH_PING=$(ping_result $TWITCH_IP)
     YOUTUBE_PING=$(ping_result $YOUTUBE_IP)
+
+    # Get the ping to the Game
+    GAME_PING=$(ping_result $GAME_IP)
 
     # Get the ping to the ADSL Modem
     # ADSL_PING=$(ping_result $ADSL_IP)

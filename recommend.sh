@@ -34,7 +34,8 @@ URL="https://github.com/Edwardwich/openwrt-passwall2/releases/download/$VERSION/
 echo "Downloading: $FILE"
 curl -LO "$URL"
 
-@install passwall package:
+#install passwall package :
 opkg install *.ipk
-
+#remove downloaded file :
+rm 
   

@@ -14,11 +14,11 @@ install_theme() {
   local REPO_NAME=$1
   local THEME_NAME=$2
 
+    #https://github.com/jerrykuku/luci-theme-argon/releases/download/v2.3.2/luci-theme-argon_2.3.2-r20250207_all.ipk
   echo "Processing $THEME_NAME..."
-    #https://github.com/jerrykuku/luci-theme-argon/releases
   # GitHub repository URL and package name
-  LATEST_RELEASE_URL="https://api.github.com/repos/jerrykuku/luci-theme-argon/releases/latest"
-  IPK_URL=$(curl -s $LATEST_RELEASE_URL | grep "browser_download_url.*ipk" | cut -d '"' -f 4)
+  LATEST_RELEASE_URL="https://github.com/jerrykuku/luci-theme-argon/releases/download/v2.3.2/luci-theme-argon_2.3.2-r20250207_all.ipk"
+  IPK_URL=$(curl -s $LATEST_RELEASE_URL)
 
   # Check if the download link is found
   if [ -z "$IPK_URL" ]; then

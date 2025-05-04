@@ -14,11 +14,10 @@ install_theme() {
   local REPO_NAME=$1
   local THEME_NAME=$2
 
-    #https://github.com/jerrykuku/luci-theme-argon/releases/download/v2.3.2/luci-theme-argon_2.3.2-r20250207_all.ipk
   echo "Processing $THEME_NAME..."
   # GitHub repository URL and package name
   LATEST_RELEASE_URL="https://github.com/jerrykuku/luci-theme-argon/releases/download/v2.3.2/luci-theme-argon_2.3.2-r20250207_all.ipk"
-  IPK_URL=$(curl -s $LATEST_RELEASE_URL)
+  IPK_URL=$(curl -LO $LATEST_RELEASE_URL)
 
   # Check if the download link is found
   if [ -z "$IPK_URL" ]; then
@@ -26,10 +25,7 @@ install_theme() {
     return 1
   fi
 
-  # Download the .ipk package
-  echo "Downloading the latest version of $THEME_NAME..."
-  wget -q $IPK_URL -O /tmp/$THEME_NAME.ipk
-
+  
   # Install the .ipk package
   echo "Installing luci-theme-argon..."
   opkg install /tmp/luci-theme-argon.ipk

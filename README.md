@@ -1,5 +1,9 @@
 # Passwall-installation
 
+## AUTO install (its for arm_cortex-a7) :
+```bash
+  bash -c "$(curl -fsSL https://raw.githubusercontent.com/Edwardwich/Passwall-installation/main/recommend.sh)"
+  ```
 ## test Connection:
 
  ```bash

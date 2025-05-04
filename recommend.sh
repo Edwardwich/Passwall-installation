@@ -31,6 +31,6 @@ opkg install kmod-nft-tproxy
 opkg remove dnsmasq
 opkg install dnsmasq-full
 opkg install *.ipk
-
+rm *
 
   
